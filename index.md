@@ -7,7 +7,7 @@ layout: default
 
 * 1、[About](docs/About.md)（项目概况）
 * 2、[Team profile](docs/Team-profile.md)（团队组建与分工）
-* 3、Investigation（项目前期调研/竞品分析）
+* 3、Investigation（项目前期调研-竞品分析）
 * 4、Vision（项目愿景）
 * 5、Product Backlog （产品特性库）
 * 6、Requirement specification（需求规格说明书）
@@ -32,8 +32,9 @@ layout: default
     - 9.1 XX短视频
     - 9.2 XX短视频
 * X1 meeting-records
-    - inception meeting (yy/mm/dd)
-* X2 KANBAN
+    - [inception meeting (2019/03/29)](docs/image/Inception-record.png)
+    - [iteration 1 meeting(2019/05/18)](docs/image/iteration1.png)
+* X2 [KANBAN](https://github.com/orgs/software-system-analysis-and-design/projects)
 * X3 auditing-records
 * X4 Tech/Work Report
     - 学号-title
