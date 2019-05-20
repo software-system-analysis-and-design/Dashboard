@@ -1,5 +1,6 @@
 ---
 layout: default
+title: 挣钱宝
 ---
 # 项目文档目录
 
