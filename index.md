@@ -10,7 +10,7 @@ title: 挣钱宝
 * 2、[Team profile](docs/Team-profile.md)（团队组建与分工）
 * 3、[Investigation](docs/Investigation.md)（项目前期调研）
 * 4、[Vision](docs/Vision.md)（项目愿景）
-* 5、[Product Backlog](docs/Product_backlog.md) （产品特性库）
+* 5、[Product Backlog](docs/Product_Backlog.md) （产品特性库）
 * 6、Requirement specification（需求规格说明书）
     - 6.1 Usecase Diagram（用例图）
     - 6.2 Use Cases（用例+活动图）
