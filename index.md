@@ -13,7 +13,7 @@ title: 挣钱宝
 * 5、[Product Backlog](docs/Product_Backlog.md) （产品特性库）
 * 6、Requirement specification（需求规格说明书）
     - 6.1 [Usecase Diagram](docs/Use_Cases.md)（用例图）
-    - 6.2 [Use Cases](Usecase_Diagram_and_UML_Activity_Diagram.md)（用例+活动图）
+    - 6.2 [Use Cases](docs/Usecase_Diagram_and_UML_Activity_Diagram.md)（用例+活动图）
     - 6.3 Domian Models（领域模型）
     - 6.4 State Models（状态模型）
     - 6.5 System Sequence Diagrams（功能模型）

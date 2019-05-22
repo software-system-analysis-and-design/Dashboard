@@ -1,3 +1,8 @@
+---
+layout: default
+title: 挣钱宝
+---
+
 ## Iteration 1
 
 | ID   | Name     | Imp  | Est (man-day) | How to demo                                                  | Notes                                                        |

@@ -1,3 +1,8 @@
+---
+layout: default
+title: 挣钱宝
+---
+
 ## 基本用例
 
 #### Use case 1.1 登录

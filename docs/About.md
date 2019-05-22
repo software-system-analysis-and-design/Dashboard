@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于项目
+title: 挣钱宝
 ---
 
 # 关于项目
