@@ -7,13 +7,13 @@ title: 挣钱宝
 &nbsp;&nbsp; 
 
 * 1、[About](docs/About.md)（项目概况）
-* 2、[Team profile](docs/Team-profile.md)（团队组建与分工）
+* 2、[Team profile](docs/Team_Profile.md)（团队组建与分工）
 * 3、[Investigation](docs/Investigation.md)（项目前期调研）
 * 4、[Vision](docs/Vision.md)（项目愿景）
 * 5、[Product Backlog](docs/Product_Backlog.md) （产品特性库）
 * 6、Requirement specification（需求规格说明书）
-    - 6.1 [Usecase Diagram](docs/Use Cases.md)（用例图）
-    - 6.2 [Use Cases](Usecase Diagram and UML Activity Diagram.md)（用例+活动图）
+    - 6.1 [Usecase Diagram](docs/Use_Cases.md)（用例图）
+    - 6.2 [Use Cases](Usecase_Diagram_and_UML_Activity_Diagram.md)（用例+活动图）
     - 6.3 Domian Models（领域模型）
     - 6.4 State Models（状态模型）
     - 6.5 System Sequence Diagrams（功能模型）
