@@ -15,7 +15,7 @@ title: 挣钱宝
     - 6.1 [Usecase Diagram](docs/Usecase_Diagram.md)（用例图）
     - 6.2 [Use Cases and Activity Diagram](docs/Usecase_and_Activity_Diagram.md)（用例+活动图）
     - 6.3 [Domian Models](docs/Domain_Model.md)（领域模型）
-    - 6.4 [State Models](docs/State_Model（状态模型）
+    - 6.4 [State Models](docs/State_Model)（状态模型）
     - 6.5 [System Sequence Diagrams](docs/System_Sequence_Diagrams.md)（功能模型）
     - 6.6 Supplementary Requirements（补充需求）
 * 7、Design（设计说明书）
