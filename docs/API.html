@@ -21,8 +21,8 @@
 <script type="text/javascript" src="https://img.cdn.apipost.cn/statics/build-in/bootstrap/js/bootstrap.js"></script>
 <script language="javascript">
 	$(function(){
-		let _left_menus = [{"folder_id":"3334","name":"\u767b\u5f55\u6ce8\u518c\u529f\u80fd","sort":"0","menu":[{"apiid":"29712","name":"\u66f4\u65b0\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29692","name":"\u83b7\u53d6\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29674","name":"\u6ce8\u518c","sort":"1"},{"apiid":"29581","name":"\u6ce8\u9500","sort":"2"},{"apiid":"29684","name":"\u767b\u5f55","sort":"3"}]},{"folder_id":"3522","name":"\u4efb\u52a1\u9762\u677f","sort":"0","menu":[{"apiid":"32292","name":"\u5220\u9664\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"32277","name":"\u66f4\u65b0\u4efb\u52a1\u4fe1\u606f","sort":"0"},{"apiid":"32270","name":"\u83b7\u53d6\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31997","name":"\u521b\u5efa\u65b0\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31994","name":"\u83b7\u53d6\u6240\u6709\u4efb\u52a1\u7684\u9884\u89c8\u4fe1\u606f","sort":"1"}]}];
-		let _init_apiid = 32292;
+		let _left_menus = [{"folder_id":"3334","name":"\u767b\u5f55\u6ce8\u518c\u529f\u80fd","sort":"0","menu":[{"apiid":"29712","name":"\u66f4\u65b0\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29692","name":"\u83b7\u53d6\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29674","name":"\u6ce8\u518c","sort":"1"},{"apiid":"29581","name":"\u6ce8\u9500","sort":"2"},{"apiid":"29684","name":"\u767b\u5f55","sort":"3"}]},{"folder_id":"3522","name":"\u4efb\u52a1\u9762\u677f","sort":"0","menu":[{"apiid":"32499","name":"\u5c06\u4efb\u52a1\u79fb\u5165\/\u79fb\u51fa\u56de\u6536\u7ad9","sort":"0"},{"apiid":"32292","name":"\u5220\u9664\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"32277","name":"\u66f4\u65b0\u4efb\u52a1\u4fe1\u606f","sort":"0"},{"apiid":"32270","name":"\u83b7\u53d6\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31997","name":"\u521b\u5efa\u65b0\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31994","name":"\u83b7\u53d6\u6240\u6709\u4efb\u52a1\u7684\u9884\u89c8\u4fe1\u606f","sort":"1"}]}];
+		let _init_apiid = 32499;
 
 		//排序
 		_left_menus.sort(function(a, b){
@@ -220,7 +220,181 @@
 		        </div>
 		        <h1><!-- 挣钱宝接口文档 --></h1>
 	    	</div>
-	    		    	<div class="page-wrapper hide" tabindex="32292" role="main">
+	    		    	<div class="page-wrapper hide" tabindex="32499" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>将任务移入/移出回收站</h1>
+	            			            		<div>
+	            			将任务移入/移出回收站，URL：https://littlefish33.cn:8080/questionnaire/trash，POST方法，需要携带token	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/questionnaire/trash</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundary0wYmy3k0U8pEnRqZ</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
+			                  			<td>用于认证的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>id</th>
+			                  			<td>15603645531590201351</td>
+			                  			<td>string，需要移入/移出的任务的id</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>inTrash</th>
+			                  			<td>1</td>
+			                  			<td>int，0表示移入，1表示移出</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Wed, 12 Jun 2019 18:37:12 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 50</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "code": 400,
+    "msg": "更新成功！"
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>{
+    "code": 400,
+    "msg": "ID不存在，执行失败！"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="32292" role="main">
 	        	<div class="page-inner">
 	          		<section class="markdown-section">
 	            		<h1><i class="fa fa-link" aria-hidden="true"></i>删除指定id的任务</h1>
@@ -257,7 +431,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -267,7 +441,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryXcGBMnPLtWcLAb9H</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryOsANp9mHqYBxBwEa</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -288,7 +462,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>用于认证的token</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -309,7 +483,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>id</th>
-			                  			<td>15603281241590201351</td>
+			                  			<td>156036433915902013516</td>
 			                  			<td>需要删除的任务的ID</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -337,7 +511,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:44:32 GMT</td>
+			                  			<td> Wed, 12 Jun 2019 18:35:44 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -352,7 +526,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 50</td>
+			                  			<td> 36</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -426,7 +600,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -436,7 +610,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryPFk7lLpXqHxtNJ52</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryTBCKGMHmZPPkxvyr</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -457,7 +631,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>token</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -478,12 +652,12 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>id</th>
-			                  			<td>156032917915902013516</td>
+			                  			<td>156036433915902013516</td>
 			                  			<td>需要更新的任务的id</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>data</th>
-			                  			<td>{"taskName":"task1(updated)","taskID":"156032917915902013516","taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":0,"publishTime":"2019-06-12T00:00","endTime":"2019-06-13T00:00","chooseData":{"1":{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},"2":{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":{"1":{"id":1,"content":"option2"}}},"3":{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":{"1":{"id":1,"content":"option3_1"},"2":{"id":2,"content":"option3_2"},"3":{"id":3,"content":"option3_3"}}}}}</td>
+			                  			<td>{"taskName":"任务1","taskID":"156036433915902013516","inTrash":0,"taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":50,"publishTime":"2019-06-12","endTime":"2019-06-13","chooseData":{"1":{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},"2":{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":{"1":{"id":1,"content":"option2"}}},"3":{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":{"1":{"id":1,"content":"option3_1"},"2":{"id":2,"content":"option3_2"},"3":{"id":3,"content":"option3_3"}}}}}</td>
 			                  			<td>任务的json字符串，data中的id必须与id一致</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -511,7 +685,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:39:23 GMT</td>
+			                  			<td> Wed, 12 Jun 2019 18:34:54 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -553,7 +727,7 @@
     "code": 400,
     "msg": "更新成功！",
     "data": {
-        "id": "156031874715902013516"
+        "id": "156036433915902013516"
     }
 }</code></pre>
 	            		
@@ -610,7 +784,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundarylqABkh5F2fOXBo7J</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryGXTvglZOEzSn0EXj</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -652,7 +826,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>id</th>
-			                  			<td>15603281241590201351</td>
+			                  			<td>156036433915902013516</td>
 			                  			<td>string，指定的任务id</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -680,7 +854,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:31:04 GMT</td>
+			                  			<td> Wed, 12 Jun 2019 18:35:22 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -695,7 +869,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 42</td>
+			                  			<td> 660</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -719,16 +893,17 @@
 	            		<!-- 开始 response_body_text_ishide -->
 	            			            		<h4>成功响应示例</h4>
 	            		<pre><code>{
-    "taskName": "task2",
-    "taskID": "156032812415902013516",
+    "taskName": "任务1",
+    "taskID": "156036433915902013516",
+    "inTrash": 0,
     "taskType": "问卷",
     "creator": "15902013516",
-    "description": "描述2",
+    "description": "描述1",
     "money": 100,
     "number": 100,
-    "finishedNumber": 0,
-    "publishTime": "2019-06-12T00:00",
-    "endTime": "2019-06-13T00:00",
+    "finishedNumber": 50,
+    "publishTime": "2019-06-12",
+    "endTime": "2019-06-13",
     "chooseData": {
         "1": {
             "titleNum": 1,
@@ -824,7 +999,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -834,7 +1009,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryrzcDbBBf253PJHeZ</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryd08fVX3ddBVahpmX</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -855,7 +1030,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzMzUyNzMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.7sfQf0LIJpibOTTyb621Xtkw-FwFx_0dzCBHKefy628</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjAzNzEyNzgsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Dl2zCiOFIHT9bvNV85X5Ryk88s81lzxGhmaUUDfF8-M</td>
 			                  			<td>携带登录的时候返回的token，用于告诉服务器当前处于登录状态，需要注意的是，token对应的用户id必须与任务的creator字段一致，否则会失败</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -876,7 +1051,7 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>data</th>
-			                  			<td>{"taskName":"task1","taskID":"","taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":0,"publishTime":"2019-06-12T00:00","endTime":"2019-06-13T00:00","chooseData":{"1":{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},"2":{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":{"1":{"id":1,"content":"option2"}}},"3":{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":{"1":{"id":1,"content":"option3_1"},"2":{"id":2,"content":"option3_2"},"3":{"id":3,"content":"option3_3"}}}}}</td>
+			                  			<td>{"taskName":"任务1","taskID":"15902013516","inTrash":0,"taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":50,"publishTime":"2019-06-12","endTime":"2019-06-13","chooseData":{"1":{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},"2":{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":{"1":{"id":1,"content":"option2"}}},"3":{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":{"1":{"id":1,"content":"option3_1"},"2":{"id":2,"content":"option3_2"},"3":{"id":3,"content":"option3_3"}}}}}</td>
 			                  			<td>任务的json字符串</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
@@ -904,7 +1079,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:46:19 GMT</td>
+			                  			<td> Wed, 12 Jun 2019 18:32:19 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -1419,12 +1594,12 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:30:21 GMT</td>
+			                  			<td> Wed, 12 Jun 2019 18:36:58 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 462</td>
+			                  			<td> 467</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -1449,28 +1624,30 @@
 	            			            		<h4>成功响应示例</h4>
 	            		<pre><code>[
     {
-        "taskName": "task1",
-        "taskID": "156031874715902013516",
+        "taskName": "任务1",
+        "taskID": "156036455615902013516",
+        "inTrash": 0,
         "taskType": "问卷",
         "creator": "15902013516",
         "description": "描述1",
         "money": "100",
         "number": 100,
         "finishedNumber": 50,
-        "publishTime": "2019-06-12T00:00",
-        "endTime": "2019-06-13T00:00"
+        "publishTime": "2019-06-12",
+        "endTime": "2019-06-13"
     },
     {
-        "taskName": "task2",
-        "taskID": "156032812415902013516",
+        "taskName": "任务1",
+        "taskID": "156036455315902013516",
+        "inTrash": 1,
         "taskType": "问卷",
         "creator": "15902013516",
-        "description": "描述2",
+        "description": "描述1",
         "money": "100",
         "number": 100,
-        "finishedNumber": 0,
-        "publishTime": "2019-06-12T00:00",
-        "endTime": "2019-06-13T00:00"
+        "finishedNumber": 50,
+        "publishTime": "2019-06-12",
+        "endTime": "2019-06-13"
     }
 ]</code></pre>
 	            		
