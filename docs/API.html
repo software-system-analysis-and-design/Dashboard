@@ -21,8 +21,8 @@
 <script type="text/javascript" src="https://img.cdn.apipost.cn/statics/build-in/bootstrap/js/bootstrap.js"></script>
 <script language="javascript">
 	$(function(){
-		let _left_menus = [{"folder_id":"3334","name":"\u767b\u5f55\u6ce8\u518c\u529f\u80fd","sort":"0","menu":[{"apiid":"29692","name":"\u83b7\u53d6\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29712","name":"\u66f4\u65b0\u7528\u6237\u4fe1\u606f","sort":"1"},{"apiid":"29674","name":"\u6ce8\u518c","sort":"2"},{"apiid":"29581","name":"\u6ce8\u9500","sort":"3"},{"apiid":"29684","name":"\u767b\u5f55","sort":"4"}]},{"folder_id":"3522","name":"\u4efb\u52a1\u9762\u677f","sort":"0","menu":[{"apiid":"32270","name":"\u83b7\u53d6\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31997","name":"\u521b\u5efa\u65b0\u7684\u4efb\u52a1","sort":"0"},{"apiid":"32277","name":"\u66f4\u65b0\u4efb\u52a1\u4fe1\u606f","sort":"1"},{"apiid":"32292","name":"\u5220\u9664\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"2"},{"apiid":"32499","name":"\u5c06\u4efb\u52a1\u79fb\u5165\/\u79fb\u51fa\u56de\u6536\u7ad9","sort":"4"},{"apiid":"31994","name":"\u83b7\u53d6\u6240\u6709\u4efb\u52a1\u7684\u9884\u89c8\u4fe1\u606f","sort":"5"}]}];
-		let _init_apiid = 32270;
+		let _left_menus = [{"folder_id":"3334","name":"\u767b\u5f55\u6ce8\u518c\u529f\u80fd","sort":"0","menu":[{"apiid":"29692","name":"\u83b7\u53d6\u7528\u6237\u4fe1\u606f","sort":"0"},{"apiid":"29712","name":"\u66f4\u65b0\u7528\u6237\u4fe1\u606f","sort":"1"},{"apiid":"29674","name":"\u6ce8\u518c","sort":"2"},{"apiid":"29581","name":"\u6ce8\u9500","sort":"3"},{"apiid":"29684","name":"\u767b\u5f55","sort":"4"}]},{"folder_id":"3522","name":"\u4efb\u52a1\u9762\u677f","sort":"0","menu":[{"apiid":"32270","name":"\u83b7\u53d6\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"0"},{"apiid":"31997","name":"\u521b\u5efa\u65b0\u7684\u4efb\u52a1","sort":"1"},{"apiid":"32277","name":"\u66f4\u65b0\u4efb\u52a1\u4fe1\u606f","sort":"2"},{"apiid":"32292","name":"\u5220\u9664\u6307\u5b9aid\u7684\u4efb\u52a1","sort":"3"},{"apiid":"32499","name":"\u5c06\u4efb\u52a1\u79fb\u5165\/\u79fb\u51fa\u56de\u6536\u7ad9","sort":"4"},{"apiid":"31994","name":"\u83b7\u53d6\u6240\u6709\u4efb\u52a1\u7684\u9884\u89c8\u4fe1\u606f","sort":"5"}]},{"folder_id":"4168","name":"\u7528\u6237\u63d0\u4ea4\u7684\u95ee\u5377","sort":"0","menu":[{"apiid":"36444","name":"\u5220\u9664\u7528\u6237\u63d0\u4ea4\u7684\u95ee\u5377","sort":"0"},{"apiid":"36435","name":"\u66f4\u65b0\u7528\u6237\u63d0\u4ea4\u7684\u7b54\u6848","sort":"0"},{"apiid":"36432","name":"\u83b7\u53d6\u6307\u5b9a\u7528\u6237\u548c\u95ee\u5377\u7684\u7b54\u6848","sort":"0"},{"apiid":"36424","name":"\u63d0\u4ea4\u7528\u6237\u586b\u5199\u7684\u95ee\u5377","sort":"0"}]}];
+		let _init_apiid = 36444;
 
 		//排序
 		_left_menus.sort(function(a, b){
@@ -220,7 +220,718 @@
 		        </div>
 		        <h1><!-- 挣钱宝接口文档 --></h1>
 	    	</div>
-	    		    	<div class="page-wrapper hide" tabindex="32270" role="main">
+	    		    	<div class="page-wrapper hide" tabindex="36444" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>删除用户提交的问卷</h1>
+	            			            		<div>
+	            			删除用户的提交的问卷答案，需要提供登录时得到的token和任务的id	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/record/delete</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundarydpcQjFuaKmdvJ8F8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>登录时获取的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>taskID</th>
+			                  			<td>156040940515902013516</td>
+			                  			<td>要删除的问卷的id</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Wed, 19 Jun 2019 07:53:41 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 36</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "code": 200,
+    "msg": "删除成功！"
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>{
+    "code": 400,
+    "msg": "删除失败，该记录不存在！"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="36435" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>更新用户提交的答案</h1>
+	            			            		<div>
+	            			更新用户提交的答案，需要提供token和json字符串	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/record/update</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryJUbsIsYU38zgiSMM</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>登录时获取的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>data</th>
+			                  			<td>{&quot;taskID&quot;:&quot;156040940515902013516&quot;,&quot;userID&quot;:&quot;15902013516&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;type&quot;:0,&quot;content&quot;:&quot;简答题的答案（updated）&quot;},{&quot;id&quot;:2,&quot;type&quot;:1,&quot;content&quot;:&quot;A&quot;},{&quot;id&quot;:3,&quot;type&quot;:2,&quot;content&quot;:&quot;A\u0026B\u0026C&quot;},{&quot;id&quot;:4,&quot;type&quot;:0,&quot;content&quot;:&quot;简答题4的答案&quot;}]}</td>
+			                  			<td>要更新的json字符串</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Wed, 19 Jun 2019 07:51:35 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 36</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "code": 200,
+    "msg": "更新成功！"
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>// 第一种情况
+{
+	"code": 400,
+	"msg": "更新失败，该记录不存在！"
+}
+
+// 第二种情况
+{
+	"code": 400,
+	"msg": "创建者的ID和token所对应的用户ID不一致！"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="36432" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>获取指定用户和问卷的答案</h1>
+	            			            		<div>
+	            			需要token和任务的id	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/record/select</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryMXEgfd4MdamjiXoO</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>登录时获取的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>taskID</th>
+			                  			<td>156040940515902013516</td>
+			                  			<td>指定的任务id</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Wed, 19 Jun 2019 07:51:43 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 256</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "taskID": "156040940515902013516",
+    "userID": "15902013516",
+    "data": [
+        {
+            "id": 1,
+            "type": 0,
+            "content": "简答题的答案"
+        },
+        {
+            "id": 2,
+            "type": 1,
+            "content": "A"
+        },
+        {
+            "id": 3,
+            "type": 2,
+            "content": "A&B&C"
+        },
+        {
+            "id": 4,
+            "type": 0,
+            "content": "简答题4的答案"
+        }
+    ]
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>{
+    "code": 400,
+    "msg": "获取任务失败！"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="36424" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>提交用户填写的问卷</h1>
+	            			            		<div>
+	            			需要登录的token和json字符串	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/record/create</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryttpmBRtlj328BExp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA5MzcyMzAsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.jel0syd8DFxqQS8i4vknnKsOJiyDHT8tBf0kciHYCt0</td>
+			                  			<td>登录时获取的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>data</th>
+			                  			<td>{&quot;taskID&quot;:&quot;156040940515902013516&quot;,&quot;userID&quot;:&quot;15902013516&quot;,&quot;data&quot;:[{&quot;id&quot;:1,&quot;type&quot;:0,&quot;content&quot;:&quot;简答题的答案&quot;},{&quot;id&quot;:2,&quot;type&quot;:1,&quot;content&quot;:&quot;A&quot;},{&quot;id&quot;:3,&quot;type&quot;:2,&quot;content&quot;:&quot;A\u0026B\u0026C&quot;},{&quot;id&quot;:4,&quot;type&quot;:0,&quot;content&quot;:&quot;简答题4的答案&quot;}]}</td>
+			                  			<td>提交的答案的json字符串</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Wed, 19 Jun 2019 07:53:50 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 36</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "code": 200,
+    "msg": "插入成功！"
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>// 第一种情况
+{
+	"code": 400,
+	"msg": "创建者的ID和token所对应的用户ID不一致！"
+}
+// 第二种情况
+{
+	"code": 400,
+	"msg": "该问卷不存在！"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="32270" role="main">
 	        	<div class="page-inner">
 	          		<section class="markdown-section">
 	            		<h1><i class="fa fa-link" aria-hidden="true"></i>获取指定id的任务</h1>
@@ -249,27 +960,22 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>Accept</th>
-			                  			<td>application/json, text/javascript, */*; q=0.01</td>
+			                  			<td>*/*</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Origin</th>
-			                  			<td>https://console.apipost.cn</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>X-Requested-With</th>
-			                  			<td>XMLHttpRequest</td>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>User-Agent</th>
-			                  			<td>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36</td>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>application/x-www-form-urlencoded; charset=UTF-8</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryndQ6Y8Es5RtBDW3E</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -339,7 +1045,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Thu, 13 Jun 2019 07:03:48 GMT</td>
+			                  			<td> Wed, 19 Jun 2019 07:41:46 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -354,7 +1060,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 632</td>
+			                  			<td> 641</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -440,181 +1146,6 @@
 	            		<pre><code>{
     "code": 400,
     "msg": "获取任务失败！"
-}</code></pre>
-	            			          		</section>
-	        	</div>
-	      	</div>
-	      		    	<div class="page-wrapper hide" tabindex="31997" role="main">
-	        	<div class="page-inner">
-	          		<section class="markdown-section">
-	            		<h1><i class="fa fa-link" aria-hidden="true"></i>创建新的任务</h1>
-	            			            		<div>
-	            			创建新的任务，POST请求，需要携带token和data字段，data字段表示任务的json字符串，创建成功之后会返回一个json字符串，里面包含着具体的创建的任务的ID（可以参考下面的成功示例）；<br />
-需要注意的是：<br />
-1. 表单字段data的json字符串中的creator必须与token所代表的用户一致；<br />
-2. 表单字段data的json字符串中的taskID实际上是一个无用的选项，因为taskID是后台唯一生成的，所以在提交的时候提交taskID为一个空字符串就好，可以参考下面的成功示例（其实就算是乱七八糟的字符串也无所谓，因为后台不会用的）	            		</div>
-	            			            		<h4>接口URL</h4>
-	            		<code>https://littlefish33.cn:8080/questionnaire/create</code>
-	            		<h4>请求方式</h4>
-	            		<code>POST</code>
-	            		<h4>请求 Content-Type</h4>
-	            		<code>multipart/form-data</code>
-
-	            		<!-- 开始 request_all_header -->
-	            			            		<div class="document-block-div request_all_header-div">
-		            		<h4>请求原始Header</h4>
-		            		<table>
-		              			<thead>
-		                			<tr>
-			                  			<th>参数</th>
-			                  			<th>示例值</th>
-			                  			<th>参数描述</th>
-			                  		</tr>
-		              			</thead>
-		              			<tbody>
-		              						              						              				<tr>
-			                  			<th>Accept</th>
-			                  			<td>*/*</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>Origin</th>
-			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MTY1NjIsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Q_xZMfhao7dENmxcR9n544tfnGFK2qw5d29zEF1kh0Y</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>User-Agent</th>
-			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryQVf7Qt2ABqlvuH3X</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              			</tbody>
-		            		</table>
-		            	</div>
-	            		
-	            		<!-- 开始 request_header -->
-	            			            		<div class="document-block-div request_header-div">
-		            		<h4>请求自定义Header</h4>
-		            		<table>
-		              			<thead>
-		                			<tr>
-			                  			<th>参数</th>
-			                  			<th>示例值</th>
-			                  			<th>参数描述</th>
-			                  		</tr>
-		              			</thead>
-		              			<tbody>
-		              						              						              				<tr>
-			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MTY1NjIsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Q_xZMfhao7dENmxcR9n544tfnGFK2qw5d29zEF1kh0Y</td>
-			                  			<td>携带登录的时候返回的token，用于告诉服务器当前处于登录状态，需要注意的是，token对应的用户id必须与任务的creator字段一致，否则会失败</td>
-			                  		</tr>
-			                  				              						              						              						              			</tbody>
-		            		</table>
-		            	</div>
-	            		
-	            		<!-- 开始 request_body -->
-	            			            			            		<div class="document-block-div request_body-div">
-		            		<h4>请求Body参数</h4>
-		            		<table>
-		              			<thead>
-		                			<tr>
-			                  			<th>参数</th>
-			                  			<th>示例值</th>
-			                  			<th>参数描述</th>
-			                  		</tr>
-		              			</thead>
-		              			<tbody>
-		              						              						              				<tr>
-			                  			<th>data</th>
-			                  			<td>{"taskName":"任务1","taskID":"20190611qiuxy23","inTrash":0,"taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":50,"publishTime":"2019-06-12","endTime":"2019-06-13","chooseData":[{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":[{"id":1,"content":"option2"}]},{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":[{"id":1,"content":"option3_1"},{"id":2,"content":"option3_2"},{"id":3,"content":"option3_3"}]}]}</td>
-			                  			<td>任务的json字符串</td>
-			                  		</tr>
-			                  				              						              						              						              			</tbody>
-		            		</table>
-		            	</div>
-	            								
-						<!-- 开始 request_Query -->
-	            		
-	            		<!-- 开始 response_header -->
-	            			            		<div class="document-block-div response_header-div">
-		            		<h4>响应头</h4>
-		            		<table>
-		              			<thead>
-		                			<tr>
-			                  			<th>参数</th>
-			                  			<th>示例值</th>
-			                  			<th>参数描述</th>
-			                  		</tr>
-		              			</thead>
-		              			<tbody>
-		              						              						              				<tr>
-			                  			<th>status</th>
-			                  			<td> 200</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>date</th>
-			                  			<td> Thu, 13 Jun 2019 07:03:25 GMT</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>access-control-allow-credentials</th>
-			                  			<td> true</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>access-control-allow-origin</th>
-			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>content-length</th>
-			                  			<td> 74</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>vary</th>
-			                  			<td> Origin</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
-			                  			<th>content-type</th>
-			                  			<td> application/json; charset=UTF-8</td>
-			                  			<td>无描述</td>
-			                  		</tr>
-			                  				              						              			</tbody>
-		            		</table>
-		            	</div>
-	            		
-	            		<!-- 开始 response_cookie -->
-	            		
-	            		<!-- 开始 response_body -->
-	            		
-	            		<!-- 开始 response_body_text_ishide -->
-	            			            		<h4>成功响应示例</h4>
-	            		<pre><code>{
-    "code": 200,
-    "msg": "插入成功！",
-    "data": {
-        "id": "156031874715902013516"
-    }
-}</code></pre>
-	            		
-	            		<!-- 开始 response_body_error_text -->
-	            			            		<h4>失败响应示例</h4>
-	            		<pre><code>{
-    "code": 400,
-    "msg": "创建者的ID和token所对应的用户ID不一致！"
 }</code></pre>
 	            			          		</section>
 	        	</div>
@@ -768,14 +1299,17 @@
 	            			          		</section>
 	        	</div>
 	      	</div>
-	      		    	<div class="page-wrapper hide" tabindex="32277" role="main">
+	      		    	<div class="page-wrapper hide" tabindex="31997" role="main">
 	        	<div class="page-inner">
 	          		<section class="markdown-section">
-	            		<h1><i class="fa fa-link" aria-hidden="true"></i>更新任务信息</h1>
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>创建新的任务</h1>
 	            			            		<div>
-	            			更新任务信息的API，https://littlefish33.cn:8080/questionnaire/update，POST方法，需要携带token和表示任务json字符串的data字段，data字段的creator和id必须与token和id一致	            		</div>
+	            			创建新的任务，POST请求，需要携带token和data字段，data字段表示任务的json字符串，创建成功之后会返回一个json字符串，里面包含着具体的创建的任务的ID（可以参考下面的成功示例）；<br />
+需要注意的是：<br />
+1. 表单字段data的json字符串中的creator必须与token所代表的用户一致；<br />
+2. 表单字段data的json字符串中的taskID实际上是一个无用的选项，因为taskID是后台唯一生成的，所以在提交的时候提交taskID为一个空字符串就好，可以参考下面的成功示例（其实就算是乱七八糟的字符串也无所谓，因为后台不会用的）	            		</div>
 	            			            		<h4>接口URL</h4>
-	            		<code>https://littlefish33.cn:8080/questionnaire/update</code>
+	            		<code>https://littlefish33.cn:8080/questionnaire/create</code>
 	            		<h4>请求方式</h4>
 	            		<code>POST</code>
 	            		<h4>请求 Content-Type</h4>
@@ -815,7 +1349,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryRiZoQMAG4CYwko9f</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryBWqwomUlfmEffAoj</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -837,7 +1371,7 @@
 		              						              						              				<tr>
 			                  			<th>Authorization</th>
 			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MTY1NjIsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Q_xZMfhao7dENmxcR9n544tfnGFK2qw5d29zEF1kh0Y</td>
-			                  			<td>token</td>
+			                  			<td>携带登录的时候返回的token，用于告诉服务器当前处于登录状态，需要注意的是，token对应的用户id必须与任务的creator字段一致，否则会失败</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
 		            		</table>
@@ -856,14 +1390,9 @@
 		              			</thead>
 		              			<tbody>
 		              						              						              				<tr>
-			                  			<th>id</th>
-			                  			<td>156040940515902013516</td>
-			                  			<td>需要更新的任务的id</td>
-			                  		</tr>
-			                  				              						              						              				<tr>
 			                  			<th>data</th>
-			                  			<td>{"taskName":"任务1(updated)","taskID":"156040940515902013516","inTrash":0,"taskType":"问卷","creator":"15902013516","description":"描述1","money":100,"number":100,"finishedNumber":50,"publishTime":"2019-06-12","endTime":"2019-06-13","chooseData":[{"titleNum":1,"id":1,"title":"question1","dataType":0,"required":true,"dataContent":null},{"titleNum":2,"id":2,"title":"question2","dataType":0,"required":true,"dataContent":[{"id":1,"content":"option2"}]},{"titleNum":3,"id":3,"title":"question3","dataType":0,"required":false,"dataContent":[{"id":1,"content":"option3_1"},{"id":2,"content":"option3_2"},{"id":3,"content":"option3_3"}]}]}</td>
-			                  			<td>任务的json字符串，data中的id必须与id一致</td>
+			                  			<td>{&quot;taskName&quot;:&quot;12&quot;,&quot;taskID&quot;:&quot;&quot;,&quot;inTrash&quot;:0,&quot;taskType&quot;:&quot;问卷&quot;,&quot;creator&quot;:&quot;15902013516&quot;,&quot;description&quot;:&quot;12&quot;,&quot;money&quot;:2,&quot;number&quot;:2,&quot;finishedNumber&quot;:0,&quot;publishTime&quot;:&quot;2019-06-08T02:02&quot;,&quot;endTime&quot;:&quot;2019-06-23T03:03&quot;,&quot;chooseData&quot;:[{&quot;titleNum&quot;:1,&quot;id&quot;:1,&quot;title&quot;:&quot;23232&quot;,&quot;dataType&quot;:1,&quot;required&quot;:false,&quot;dataContent&quot;:[{&quot;id&quot;:0,&quot;content&quot;:&quot;&quot;}]},{&quot;titleNum&quot;:2,&quot;id&quot;:2,&quot;title&quot;:&quot;23&quot;,&quot;dataType&quot;:1,&quot;required&quot;:true,&quot;dataContent&quot;:[{&quot;id&quot;:0,&quot;content&quot;:&quot;&quot;}]}]}</td>
+			                  			<td>任务的json字符串</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
 		            		</table>
@@ -890,7 +1419,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Thu, 13 Jun 2019 07:04:29 GMT</td>
+			                  			<td> Thu, 13 Jun 2019 07:46:51 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -905,7 +1434,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 74</td>
+			                  			<td> 75</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -930,9 +1459,9 @@
 	            			            		<h4>成功响应示例</h4>
 	            		<pre><code>{
     "code": 200,
-    "msg": "更新成功！",
+    "msg": "插入成功！",
     "data": {
-        "id": "156040940515902013516"
+        "id": "156031874715902013516"
     }
 }</code></pre>
 	            		
@@ -940,7 +1469,7 @@
 	            			            		<h4>失败响应示例</h4>
 	            		<pre><code>{
     "code": 400,
-    "msg": "更新失败，该id不存在！"
+    "msg": "创建者的ID和token所对应的用户ID不一致！"
 }</code></pre>
 	            			          		</section>
 	        	</div>
@@ -1178,14 +1707,14 @@
 	            			          		</section>
 	        	</div>
 	      	</div>
-	      		    	<div class="page-wrapper hide" tabindex="32292" role="main">
+	      		    	<div class="page-wrapper hide" tabindex="32277" role="main">
 	        	<div class="page-inner">
 	          		<section class="markdown-section">
-	            		<h1><i class="fa fa-link" aria-hidden="true"></i>删除指定id的任务</h1>
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>更新任务信息</h1>
 	            			            		<div>
-	            			删除指定任务，https://littlefish33.cn:8080/questionnaire/delete，POST方法，需要提供token和要删除的任务的id，token对应的用户必须是任务的创建者，否则会创建失败	            		</div>
+	            			更新任务信息的API，https://littlefish33.cn:8080/questionnaire/update，POST方法，需要携带token和表示任务json字符串的data字段，data字段的creator和id必须与token和id一致	            		</div>
 	            			            		<h4>接口URL</h4>
-	            		<code>https://littlefish33.cn:8080/questionnaire/delete</code>
+	            		<code>https://littlefish33.cn:8080/questionnaire/update</code>
 	            		<h4>请求方式</h4>
 	            		<code>POST</code>
 	            		<h4>请求 Content-Type</h4>
@@ -1215,7 +1744,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MDM4NTMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.heklUM5xyapzRtAxGRJRWqP4OAiJuv-ccN7VKCiB9AE</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MTY1NjIsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Q_xZMfhao7dENmxcR9n544tfnGFK2qw5d29zEF1kh0Y</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -1225,7 +1754,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryOA0F1e8BkuUnptJY</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryRiZoQMAG4CYwko9f</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -1246,8 +1775,8 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>Authorization</th>
-			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MDM4NTMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.heklUM5xyapzRtAxGRJRWqP4OAiJuv-ccN7VKCiB9AE</td>
-			                  			<td>用于认证的token</td>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MTY1NjIsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.Q_xZMfhao7dENmxcR9n544tfnGFK2qw5d29zEF1kh0Y</td>
+			                  			<td>token</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
 		            		</table>
@@ -1267,8 +1796,13 @@
 		              			<tbody>
 		              						              						              				<tr>
 			                  			<th>id</th>
-			                  			<td>156039775515902013516</td>
-			                  			<td>需要删除的任务的ID</td>
+			                  			<td>156040940515902013516</td>
+			                  			<td>需要更新的任务的id</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>data</th>
+			                  			<td>{&quot;taskName&quot;:&quot;任务1(updated)&quot;,&quot;taskID&quot;:&quot;156040940515902013516&quot;,&quot;inTrash&quot;:0,&quot;taskType&quot;:&quot;问卷&quot;,&quot;creator&quot;:&quot;15902013516&quot;,&quot;description&quot;:&quot;描述1&quot;,&quot;money&quot;:100,&quot;number&quot;:100,&quot;finishedNumber&quot;:50,&quot;publishTime&quot;:&quot;2019-06-12&quot;,&quot;endTime&quot;:&quot;2019-06-13&quot;,&quot;chooseData&quot;:[{&quot;titleNum&quot;:1,&quot;id&quot;:1,&quot;title&quot;:&quot;question1&quot;,&quot;dataType&quot;:0,&quot;required&quot;:true,&quot;dataContent&quot;:null},{&quot;titleNum&quot;:2,&quot;id&quot;:2,&quot;title&quot;:&quot;question2&quot;,&quot;dataType&quot;:0,&quot;required&quot;:true,&quot;dataContent&quot;:[{&quot;id&quot;:1,&quot;content&quot;:&quot;option2&quot;}]},{&quot;titleNum&quot;:3,&quot;id&quot;:3,&quot;title&quot;:&quot;question3&quot;,&quot;dataType&quot;:0,&quot;required&quot;:false,&quot;dataContent&quot;:[{&quot;id&quot;:1,&quot;content&quot;:&quot;option3_1&quot;},{&quot;id&quot;:2,&quot;content&quot;:&quot;option3_2&quot;},{&quot;id&quot;:3,&quot;content&quot;:&quot;option3_3&quot;}]}]}</td>
+			                  			<td>任务的json字符串，data中的id必须与id一致</td>
 			                  		</tr>
 			                  				              						              						              						              			</tbody>
 		            		</table>
@@ -1295,7 +1829,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Thu, 13 Jun 2019 04:29:47 GMT</td>
+			                  			<td> Thu, 13 Jun 2019 07:04:29 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -1310,7 +1844,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>content-length</th>
-			                  			<td> 36</td>
+			                  			<td> 74</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
@@ -1335,14 +1869,17 @@
 	            			            		<h4>成功响应示例</h4>
 	            		<pre><code>{
     "code": 200,
-    "msg": "删除成功！"
+    "msg": "更新成功！",
+    "data": {
+        "id": "156040940515902013516"
+    }
 }</code></pre>
 	            		
 	            		<!-- 开始 response_body_error_text -->
 	            			            		<h4>失败响应示例</h4>
 	            		<pre><code>{
     "code": 400,
-    "msg": "删除失败，id不存在！"
+    "msg": "更新失败，该id不存在！"
 }</code></pre>
 	            			          		</section>
 	        	</div>
@@ -1554,6 +2091,175 @@
 	            		<pre><code>{
     "code": 400,
     "msg": "Phone number already registered!"
+}</code></pre>
+	            			          		</section>
+	        	</div>
+	      	</div>
+	      		    	<div class="page-wrapper hide" tabindex="32292" role="main">
+	        	<div class="page-inner">
+	          		<section class="markdown-section">
+	            		<h1><i class="fa fa-link" aria-hidden="true"></i>删除指定id的任务</h1>
+	            			            		<div>
+	            			删除指定任务，https://littlefish33.cn:8080/questionnaire/delete，POST方法，需要提供token和要删除的任务的id，token对应的用户必须是任务的创建者，否则会创建失败	            		</div>
+	            			            		<h4>接口URL</h4>
+	            		<code>https://littlefish33.cn:8080/questionnaire/delete</code>
+	            		<h4>请求方式</h4>
+	            		<code>POST</code>
+	            		<h4>请求 Content-Type</h4>
+	            		<code>multipart/form-data</code>
+
+	            		<!-- 开始 request_all_header -->
+	            			            		<div class="document-block-div request_all_header-div">
+		            		<h4>请求原始Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Accept</th>
+			                  			<td>*/*</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Origin</th>
+			                  			<td>chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MDM4NTMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.heklUM5xyapzRtAxGRJRWqP4OAiJuv-ccN7VKCiB9AE</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>User-Agent</th>
+			                  			<td>ApiPOST Runtime/V2.1.7 +https://www.apipost.cn</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>Content-Type</th>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryOA0F1e8BkuUnptJY</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_header -->
+	            			            		<div class="document-block-div request_header-div">
+		            		<h4>请求自定义Header</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>Authorization</th>
+			                  			<td>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjA0MDM4NTMsInBhc3N3b3JkIjoiMTIiLCJwaG9uZSI6IjE1OTAyMDEzNTE2In0.heklUM5xyapzRtAxGRJRWqP4OAiJuv-ccN7VKCiB9AE</td>
+			                  			<td>用于认证的token</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 request_body -->
+	            			            			            		<div class="document-block-div request_body-div">
+		            		<h4>请求Body参数</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>id</th>
+			                  			<td>156039775515902013516</td>
+			                  			<td>需要删除的任务的ID</td>
+			                  		</tr>
+			                  				              						              						              						              			</tbody>
+		            		</table>
+		            	</div>
+	            								
+						<!-- 开始 request_Query -->
+	            		
+	            		<!-- 开始 response_header -->
+	            			            		<div class="document-block-div response_header-div">
+		            		<h4>响应头</h4>
+		            		<table>
+		              			<thead>
+		                			<tr>
+			                  			<th>参数</th>
+			                  			<th>示例值</th>
+			                  			<th>参数描述</th>
+			                  		</tr>
+		              			</thead>
+		              			<tbody>
+		              						              						              				<tr>
+			                  			<th>status</th>
+			                  			<td> 200</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>date</th>
+			                  			<td> Thu, 13 Jun 2019 04:29:47 GMT</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-credentials</th>
+			                  			<td> true</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>access-control-allow-origin</th>
+			                  			<td> chrome-extension://lbapjkpcenjdeddcdgodfaljhkphfmjp</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-length</th>
+			                  			<td> 36</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>vary</th>
+			                  			<td> Origin</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              						              				<tr>
+			                  			<th>content-type</th>
+			                  			<td> application/json; charset=UTF-8</td>
+			                  			<td>无描述</td>
+			                  		</tr>
+			                  				              						              			</tbody>
+		            		</table>
+		            	</div>
+	            		
+	            		<!-- 开始 response_cookie -->
+	            		
+	            		<!-- 开始 response_body -->
+	            		
+	            		<!-- 开始 response_body_text_ishide -->
+	            			            		<h4>成功响应示例</h4>
+	            		<pre><code>{
+    "code": 200,
+    "msg": "删除成功！"
+}</code></pre>
+	            		
+	            		<!-- 开始 response_body_error_text -->
+	            			            		<h4>失败响应示例</h4>
+	            		<pre><code>{
+    "code": 400,
+    "msg": "删除失败，id不存在！"
 }</code></pre>
 	            			          		</section>
 	        	</div>
@@ -1917,7 +2623,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>Content-Type</th>
-			                  			<td>multipart/form-data; boundary=----WebKitFormBoundary9sBVU7t673QW1SsQ</td>
+			                  			<td>multipart/form-data; boundary=----WebKitFormBoundaryTXTWh5osWp43Y5f1</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              			</tbody>
@@ -1953,20 +2659,6 @@
 		            	</div>
 	            								
 						<!-- 开始 request_Query -->
-	            			            		<div class="document-block-div request_query-div">
-		            		<h4>请求Query参数</h4>
-		            		<table>
-		              			<thead>
-		                			<tr>
-			                  			<th>参数</th>
-			                  			<th>示例值</th>
-			                  			<th>参数描述</th>
-			                  		</tr>
-		              			</thead>
-		              			<tbody>
-		              						              						              						              			</tbody>
-		            		</table>
-		            	</div>
 	            		
 	            		<!-- 开始 response_header -->
 	            			            		<div class="document-block-div response_header-div">
@@ -1987,7 +2679,7 @@
 			                  		</tr>
 			                  				              						              						              				<tr>
 			                  			<th>date</th>
-			                  			<td> Wed, 12 Jun 2019 08:27:53 GMT</td>
+			                  			<td> Wed, 19 Jun 2019 07:40:30 GMT</td>
 			                  			<td>无描述</td>
 			                  		</tr>
 			                  				              						              						              				<tr>
