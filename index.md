@@ -35,6 +35,7 @@ title: 挣钱宝
 * X1 meeting-records
     - [inception meeting (2019/03/29)](docs/image/Inception-record.png)
     - [iteration 1 meeting(2019/05/18)](docs/image/iteration1.png)
+    - [iteration 2 meeting(2019/06/22)](docs/image/iteration2.png)
 * X2 [KANBAN](https://github.com/orgs/software-system-analysis-and-design/projects)
 * X3 auditing-records
 * X4 Tech/Work Report
