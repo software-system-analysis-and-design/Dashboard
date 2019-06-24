@@ -11,3 +11,10 @@
 ### 3. 更新用户信息
 
 ![](image/filed_update.png)
+
+### 4. 问卷编辑和更新
+
+![](image\function_model_edit_update_task.png)
+
+
+
