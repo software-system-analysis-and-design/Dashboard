@@ -17,7 +17,7 @@ title: 挣钱宝
     - 6.3 [Domian Models](docs/Domain_Model.md)（领域模型）
     - 6.4 [State Models](docs/State_Model.md)（状态模型）
     - 6.5 [System Sequence Diagrams](docs/System_Sequence_Diagrams.md)（功能模型）
-    - 6.6 Supplementary Requirements（补充需求）
+    - 6.6 [Supplementary Requirements](docs/Supplementary_Requirements.md)（补充需求）
 * 7、Design（设计说明书）
     - 7.1 [UI design](https://software-system-analysis-and-design.github.io/Dashboard/docs/index.html)（界面设计）
     - 7.2 Database design（数据库设计）
