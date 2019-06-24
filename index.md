@@ -21,6 +21,9 @@ title: 挣钱宝
 * 7、Design（设计说明书）
     - 7.1 [UI design](https://software-system-analysis-and-design.github.io/Dashboard/docs/index.html)（界面设计）
     - 7.2 Database design（数据库设计）
+      - 7.2.1 [用户及权限系统数据库设计](docs/db_design.md)
+      - 7.2.2 [ER模型和关系模型](docs/db_er.md)
+      - 7.2.3 [第三方数据评审结果](https://github.com/software-system-analysis-and-design/Dashboard/issues/1)
     - 7.3 [Interface API design](https://software-system-analysis-and-design.github.io/Dashboard/docs/API.html)（接口 API 设计）
     - 7.4 Architecture design（架构设计）
     - 7.5 Usecase design（用例设计）
