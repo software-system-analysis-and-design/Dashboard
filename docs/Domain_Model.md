@@ -15,3 +15,7 @@ title: 挣钱宝
 
 ![](image\domain_model.png)
 
+* v2:  修改部分字段 by 【湫一皓 16340186】
+
+![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190629014152.png)
+
