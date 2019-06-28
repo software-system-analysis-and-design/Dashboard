@@ -47,4 +47,5 @@ title: 挣钱宝
     - 16340186-[个人技术博客列表](docs/16340186_tech_report.md)
 * X5 Final Report
     - 16340186-[个人项目总结](docs/16340186_report.md)
+    - 16340189-[个人项目总结](docs/16340189_report.md)
     - [小组分工与贡献率说明](docs/teamwork_contribution.md)
