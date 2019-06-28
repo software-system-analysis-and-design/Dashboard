@@ -37,5 +37,7 @@ title: 挣钱宝
 
 ![](image/editUser_sequeue.png)
 
+#### 类图
+
 ![](image/editUser_class.png)
 
