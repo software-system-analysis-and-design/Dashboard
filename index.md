@@ -26,7 +26,7 @@ title: 挣钱宝
       - 7.2.3 [第三方数据评审结果](https://github.com/software-system-analysis-and-design/Dashboard/issues/1)
     - 7.3 [Interface API design](https://software-system-analysis-and-design.github.io/Dashboard/docs/API.html)（接口 API 设计）
     - 7.4 Architecture design（架构设计）
-    - 7.5 Usecase design（用例设计）
+    - 7.5 [Usecase design](docs/Usecase_Design.md)（用例设计）
 * 8、生产规范与指南
     - 8.1 [代码规范](docs/Code_Standard.md)
     - 8.2 [REST API 设计规范](docs/REST_API_Design_Standard.md)
@@ -47,4 +47,5 @@ title: 挣钱宝
     - 16340186-[个人技术博客列表](docs/16340186_tech_report.md)
 * X5 Final Report
     - 16340186-[个人项目总结](docs/16340186_report.md)
+    - 16340189-[个人项目总结](docs/16340189_report.md)
     - [小组分工与贡献率说明](docs/teamwork_contribution.md)
