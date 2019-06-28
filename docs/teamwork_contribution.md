@@ -42,4 +42,11 @@
 |          | 用户使用手册   | -      | 100%   | -      | -      |
 |          | 源代码目录 | -      | -      | 50%   | 50%      |
 
+# Git Log 
+
+`@JoshuQYH`  邱奕浩
+
+![](https://raw.githubusercontent.com/JoshuaQYH/blogImage/master/img/20190628123413.png)
+
+> @ Joshua QYH 注：由于前端部署工作由我完成，而在部署过程中，存在多次部署测试，所以后期的文件提交记录大部分是前端自动生成的文件，不能比较客观的反映个人的贡献，所以在这里稍微说明一下。
 
