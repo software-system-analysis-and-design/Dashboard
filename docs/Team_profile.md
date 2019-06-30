@@ -23,6 +23,7 @@ title: 关于团队
 |:--:|:--:|:--:|:--:|
 |16340186|湫一皓|[JoshuaQYH](https://github.com/JoshuaQYH)|项目经理、js工程师|
 |16340189|Animania|[lossatsea](https://github.com/lossatsea)|前端(UI)工程师、测试工程师|
+|16340185|Batman|[LittleFish33](https://github.com/LittleFish33)|后端工程师，接口测试工程师|
 
 
 --- 参考
@@ -37,4 +38,5 @@ title: 关于团队
 |:--:|:--:|:--:|
 |湫一皓|需求分析，项目管理，前端开发。|事情总是一件...件完成的！|
 |Animania|负责UI设计，交互响应，测试阶段|事情可能会有一件完成|
+|Batman|后端API，数据库设计，后端接口测试|事情一件...件总会完成|
 
