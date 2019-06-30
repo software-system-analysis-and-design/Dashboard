@@ -1,4 +1,4 @@
-@ JoshuaQYH ‘s 的技术博客列表：
+@ JoshuaQYH ‘s 技术博客列表：
 
 - 16340186-[使用 Docker、Nginx部署一个简单React Demo到云服务器上](<https://blog.csdn.net/CVSvsvsvsvs/article/details/93587223>)
 - 16340186-[ React常见的反模式和组件设计原则总结](<https://blog.csdn.net/CVSvsvsvsvs/article/details/93504939>)
