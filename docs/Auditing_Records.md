@@ -7,9 +7,10 @@ title: 关于团队
 
 ### 需求审计
 
-| 学号     | github-id | 标题                                                         | issue url                                     |
-| -------- | --------- | ------------------------------------------------------------ | --------------------------------------------- |
-| 16340189 | lossatsea | [advise request：recommend](https://github.com/TeamWeGo/teamwego/issues/5) | https://github.com/TeamWeGo/teamwego/issues/5 |
+| 学号     | github-id    | 标题                                                         | issue url                                                    |
+| -------- | ------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 16340189 | lossatsea    | [advise request：recommend](https://github.com/TeamWeGo/teamwego/issues/5) | https://github.com/TeamWeGo/teamwego/issues/5                |
+| 16340185 | LittleFish33 | [advise request：recommend](https://github.com/TeamWeGo/teamwego/issues/5) | [advise request：recommend](https://github.com/TeamWeGo/teamwego/issues/5) |
 
 ### 设计审计
 
