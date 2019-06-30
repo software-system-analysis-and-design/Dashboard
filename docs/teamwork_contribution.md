@@ -7,6 +7,26 @@
 | 16340185 | Batman | [LittleFish33](https://github.com/LittleFish33) | API接口设计，数据库设计，后端开发和部署 | 30%                 |
 | 16340182 |  | 蒲其刚 | 需求分析，UI设计，前端开发，用例设计    | 23%                  |
 
+# PSP 2.1 汇总
+
+| PSP2.1                                | Personal Software Process Stages      |      |      | lossatsea |      |
+| ------------------------------------- | ------------------------------------- | ---- | ---- | --------- | ---- |
+| **Planning**                          | **计划**                              |      |      | 10        |      |
+| Estimate                              | 估计这个任务需要多少时间              |      |      | 10        |      |
+| **Development**                       | **开发**                              |      |      | 80        |      |
+| Analysis                              | 需求分析 (包括学习新技术)             |      |      | 9         |      |
+| Design Spec                           | 生成设计文档                          |      |      | 9         |      |
+| Design Review                         | 设计复审 (和同事审核设计文档)         |      |      | 5         |      |
+| Coding Standard                       | 代码规范 (为目前的开发制定合适的规范) |      |      | 4         |      |
+| Design                                | 具体设计                              |      |      | 10        |      |
+| Coding                                | 具体编码                              |      |      | 35        |      |
+| Code Review                           | 代码复审                              |      |      | 7         |      |
+| Test                                  | 测试（自我测试，修改代码，提交修改）  |      |      | 11        |      |
+| **Reporting**                         | **报告**                              |      |      | 10        |      |
+| Test Report                           | 测试报告                              |      |      | 1         |      |
+| Size Measurement                      | 计算工作量                            |      |      | 2         |      |
+| Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |      |      | 7         |      |
+
 # 制品与贡献率
 
 
