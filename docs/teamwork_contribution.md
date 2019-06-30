@@ -9,23 +9,23 @@
 
 # PSP 2.1 汇总
 
-| PSP2.1                                | Personal Software Process Stages      |      | JoshuaQYH | lossatsea |      |
-| ------------------------------------- | ------------------------------------- | ---- | --------- | --------- | ---- |
-| **Planning**                          | **计划**                              |      | 15        | 10        |      |
-| Estimate                              | 估计这个任务需要多少时间              |      | 15        | 10        |      |
-| **Development**                       | **开发**                              |      | 75        | 80        |      |
-| Analysis                              | 需求分析 (包括学习新技术)             |      | 10        | 9         |      |
-| Design Spec                           | 生成设计文档                          |      | 7         | 9         |      |
-| Design Review                         | 设计复审 (和同事审核设计文档)         |      | 5         | 5         |      |
-| Coding Standard                       | 代码规范 (为目前的开发制定合适的规范) |      | 3         | 4         |      |
-| Design                                | 具体设计                              |      | 10        | 10        |      |
-| Coding                                | 具体编码                              |      | 30        | 35        |      |
-| Code Review                           | 代码复审                              |      | 5         | 7         |      |
-| Test                                  | 测试（自我测试，修改代码，提交修改）  |      | 5         | 11        |      |
-| **Reporting**                         | **报告**                              |      | 10        | 10        |      |
-| Test Report                           | 测试报告                              |      | 1         | 1         |      |
-| Size Measurement                      | 计算工作量                            |      | 2         | 2         |      |
-| Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |      | 7         | 7         |      |
+| PSP2.1                                | Personal Software Process Stages      |      | JoshuaQYH | lossatsea | LittleFish33 |
+| ------------------------------------- | ------------------------------------- | ---- | --------- | --------- | ------------ |
+| **Planning**                          | **计划**                              |      | 15        | 10        | 15           |
+| Estimate                              | 估计这个任务需要多少时间              |      | 15        | 10        | 15           |
+| **Development**                       | **开发**                              |      | 75        | 80        | 75           |
+| Analysis                              | 需求分析 (包括学习新技术)             |      | 10        | 9         | 8            |
+| Design Spec                           | 生成设计文档                          |      | 7         | 9         | 7            |
+| Design Review                         | 设计复审 (和同事审核设计文档)         |      | 5         | 5         | 5            |
+| Coding Standard                       | 代码规范 (为目前的开发制定合适的规范) |      | 3         | 4         | 5            |
+| Design                                | 具体设计                              |      | 10        | 10        | 10           |
+| Coding                                | 具体编码                              |      | 30        | 35        | 30           |
+| Code Review                           | 代码复审                              |      | 5         | 7         | 10           |
+| Test                                  | 测试（自我测试，修改代码，提交修改）  |      | 5         | 11        | 10           |
+| **Reporting**                         | **报告**                              |      | 10        | 10        | 10           |
+| Test Report                           | 测试报告                              |      | 1         | 1         | 0            |
+| Size Measurement                      | 计算工作量                            |      | 2         | 2         | 2            |
+| Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |      | 7         | 7         | 8            |
 
 # 制品与贡献率
 
