@@ -42,7 +42,7 @@ title: 挣钱宝
     - [iteration 1 meeting(2019/05/18)](docs/image/iteration1.png)
     - [iteration 2 meeting(2019/06/22)](docs/image/iteration2.png)
 * X2 [KANBAN](https://github.com/orgs/software-system-analysis-and-design/projects)
-* X3 auditing-records
+* X3 [auditing-records](docs/Auditing_Records.md)
 * X4 Tech/Work Report
     - 16340186-[个人技术博客列表](docs/16340186_tech_report.md)
     - 16340189-[个人技术博客列表](docs/16340189_tech_report.md)
@@ -52,3 +52,4 @@ title: 挣钱宝
     - 16340189-[个人项目总结](docs/16340189_report.md)
     - 16340185-[个人项目总结](docs/16340185_report.md)
     - [小组分工与贡献率说明](docs/teamwork_contribution.md)
+
