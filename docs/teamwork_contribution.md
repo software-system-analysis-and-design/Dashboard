@@ -5,7 +5,7 @@
 | 16340186 |  | 邱奕浩 | 项目管理，需求分析，UI设计，前端开发    |  24%                 |
 | 16340189 | Animania | [lossatsea](https://github.com/lossatsea) | 需求分析，UI设计，前端开发              | 23%                 |
 | 16340185 | Batman | [LittleFish33](https://github.com/LittleFish33) | API接口设计，数据库设计，后端开发和部署 | 30%                 |
-| 16340182 |  | 蒲其刚 | 需求分析，UI设计，前端开发，用例设计    | 23%                  |
+| 16340182 | GitSpreed | 蒲其刚 | 需求分析，UI设计，前端开发，用例设计    | 23%                  |
 
 # PSP 2.1 汇总
 
