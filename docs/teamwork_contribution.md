@@ -2,35 +2,43 @@
 
 | 学号     | 昵称 | Github | 分工                                    | 贡献率 （合计100%） |
 | -------- | ------ | --------------------------------------- | ------------------- | ------------------- |
+<<<<<<< HEAD
 | 16340186 |  | JoshuaQYH | 项目管理，需求分析，UI设计，前端开发    |  24%                 |
+=======
+| 16340186 | JoshuaQYH | [JoshuaQYH](https://github.com/JoshuaQYH) | 项目管理，需求分析，UI设计，前端开发    |  24%                 |
+>>>>>>> 10dd61bb7a654403a6724f12d218738e4a4e6ee2
 | 16340189 | Animania | [lossatsea](https://github.com/lossatsea) | 需求分析，UI设计，前端开发              | 23%                 |
 | 16340185 | Batman | [LittleFish33](https://github.com/LittleFish33) | API接口设计，数据库设计，后端开发和部署 | 30%                 |
-| 16340182 |  | 蒲其刚 | 需求分析，UI设计，前端开发，用例设计    | 23%                  |
+| 16340182 | GitSpreed | [GitSpreed](https://github.com/GitSpreed) | 需求分析，UI设计，前端开发，用例设计    | 23%                  |
 
 # PSP 2.1 汇总
 
-| PSP2.1                                | Personal Software Process Stages      |      | JoshuaQYH | lossatsea |      |
-| ------------------------------------- | ------------------------------------- | ---- | --------- | --------- | ---- |
-| **Planning**                          | **计划**                              |      | 15        | 10        |      |
-| Estimate                              | 估计这个任务需要多少时间              |      | 15        | 10        |      |
-| **Development**                       | **开发**                              |      | 75        | 80        |      |
-| Analysis                              | 需求分析 (包括学习新技术)             |      | 10        | 9         |      |
-| Design Spec                           | 生成设计文档                          |      | 7         | 9         |      |
-| Design Review                         | 设计复审 (和同事审核设计文档)         |      | 5         | 5         |      |
-| Coding Standard                       | 代码规范 (为目前的开发制定合适的规范) |      | 3         | 4         |      |
-| Design                                | 具体设计                              |      | 10        | 10        |      |
-| Coding                                | 具体编码                              |      | 30        | 35        |      |
-| Code Review                           | 代码复审                              |      | 5         | 7         |      |
-| Test                                  | 测试（自我测试，修改代码，提交修改）  |      | 5         | 11        |      |
-| **Reporting**                         | **报告**                              |      | 10        | 10        |      |
-| Test Report                           | 测试报告                              |      | 1         | 1         |      |
-| Size Measurement                      | 计算工作量                            |      | 2         | 2         |      |
-| Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |      | 7         | 7         |      |
+| PSP2.1                                | Personal Software Process Stages      |  GitSpreed    | JoshuaQYH | lossatsea | LittleFish33 |
+| ------------------------------------- | ------------------------------------- | ---- | --------- | --------- | ------------ |
+| **Planning**                          | **计划**                              |   15   | 15        | 10        | 15           |
+| Estimate                              | 估计这个任务需要多少时间              |   15 | 15        | 10        | 15           |
+| **Development**                       | **开发**                              |   75 | 75        | 80        | 75           |
+| Analysis                              | 需求分析 (包括学习新技术)             |  10  | 10        | 9         | 8            |
+| Design Spec                           | 生成设计文档                          |  5   | 7         | 9         | 7            |
+| Design Review                         | 设计复审 (和同事审核设计文档)         |   2  | 5         | 5         | 5            |
+| Coding Standard                       | 代码规范 (为目前的开发制定合适的规范) |    3 | 3         | 4         | 5            |
+| Design                                | 具体设计                              |  10  | 10        | 10        | 10           |
+| Coding                                | 具体编码                              |  35  | 30        | 35        | 30           |
+| Code Review                           | 代码复审                              |  5   | 5         | 7         | 10           |
+| Test                                  | 测试（自我测试，修改代码，提交修改）  |  15  | 5         | 11        | 10           |
+| **Reporting**                         | **报告**                              |  10  | 10        | 10        | 10           |
+| Test Report                           | 测试报告                              |   1  | 1         | 1         | 0            |
+| Size Measurement                      | 计算工作量                            |   1  | 2         | 2         | 2            |
+| Postmortem & Process Improvement Plan | 事后总结, 并提出过程改进计划          |    8 | 7         | 7         | 8            |
 
 # 制品与贡献率
 
 
+<<<<<<< HEAD
 |          | 制品                       | JoshuaQYH | 蒲其刚 | lossatsea | 邱晓裕 |
+=======
+|          | 制品                       | JoshuaQYH | GitSpreed | lossatsea | LittleFish |
+>>>>>>> 10dd61bb7a654403a6724f12d218738e4a4e6ee2
 | -------- | -------------------------- | ------ | ------ | ------ | ------ |
 | 源码 | 后端所有模块               | -      | -      | -      | 100%   |
 |          | ——以下是前端模块——     |        |        |        |        |
@@ -54,7 +62,11 @@
 > 前端代码模块分工说明：由于在一起开发过程中，难免会出现帮其他人修改模块的情况，但是模块改动面积普遍较小，这里就不指出修改的贡献率多少，一律按主要负责人贡献率为100%的规则处理。
 
 
+<<<<<<< HEAD
 |          | 制品           | JoshuaQYH | 蒲其刚 | lossatsea | 邱晓裕 |
+=======
+|          | 制品           | JoshuaQYH | GitSpreed | lossatsea | LittleFish |
+>>>>>>> 10dd61bb7a654403a6724f12d218738e4a4e6ee2
 | -------- | -------------- | ------ | ------ | ------ | ------ |
 | **文档** | 需求规格说明书     | 10% | 80% | 10% | - |
 |          | 软件设计文档       | 25%    | -      | 25%    | 50%    |

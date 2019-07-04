@@ -31,8 +31,7 @@
           - [前端安装部署说明](docs/frontend_release.md)
           - [后端安装部署说明](docs/backend_release.md)
       - 9、成品展示
-        - 9.1 XX短视频
-        - 9.2 XX短视频
+        - [演示视频](docs/video/demo.mp4)
       - X1 meeting-records
         - [inception meeting (2019/03/29)](docs/image/Inception-record.png)
         - [iteration 1 meeting(2019/05/18)](docs/image/iteration1.png)
@@ -43,10 +42,12 @@
         - 16340186-[个人技术博客列表](docs/16340186_tech_report.md)
         - 16340189-[个人技术博客列表](docs/16340189_tech_report.md)
         - 16340185-[个人技术博客列表](docs/16340185_tech_report.md)
+        - 16340182-[个人技术博客列表](docs/16340182_tech_report.md)
       - X5 Final Report
         - 16340186-[个人项目总结](docs/16340186_report.md)
         - 16340189-[个人项目总结](docs/16340189_report.md)
         - 16340185-[个人项目总结](docs/16340185_report.md)
+        - 16340182-[个人项目总结](docs/16340182_report.md)
         - [小组分工与贡献率说明](docs/teamwork_contribution.md)
       
       
