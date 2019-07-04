@@ -7,7 +7,7 @@ title: 挣钱宝
 &nbsp;&nbsp; 
 
 * 1、[About](docs/About.md)（项目概况）
-* 2、[Team profile](docs/Team_Profile.md)（团队组建与分工）
+* 2、[Team profile](docs/Team_profile.md)（团队组建与分工）
 * 3、[Investigation](docs/Investigation.md)（项目前期调研）
 * 4、[Vision](docs/Vision.md)（项目愿景）
 * 5、[Product Backlog](docs/Product_Backlog.md) （产品特性库）
